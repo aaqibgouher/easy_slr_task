@@ -25,7 +25,9 @@ const RegisterComponent = () => {
   const register = async (e) => {
     try {
       e.preventDefault();
-      const res = await dispatch(registerAction({ name, email, password }));
+      const res = await dispatch(
+        registerAction({ name, email, password, role: "ADMIN" })
+      );
 
       if (!res || res.status !== 200) throw "Something wrong";
 
