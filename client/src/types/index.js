@@ -1,0 +1,10 @@
+export const SET_SNACKBAR = "SET_SNACKBAR";
+export const SET_TOKEN = "SET_TOKEN";
+export const GET_ME = "GET_ME";
+export const GET_PROJECTS = "GET_PROJECTS";
+export const SET_DIALOG = "SET_DIALOG";
+export const GET_PROJECT = "GET_PROJECT";
+export const GET_TASKS = "GET_TASKS";
+export const GET_ASSIGNEES = "GET_ASSIGNEES";
+export const GET_TASK = "GET_TASK";
+export const GET_USERS = "GET_USERS";
