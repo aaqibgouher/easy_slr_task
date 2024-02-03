@@ -1,6 +1,10 @@
 # Project Installation Guide
 EasySLR Task
 
+## Video Explanation
+[![Assignment Explanation](https://example.com/video-thumbnail.jpg)](https://www.loom.com/share/d30ae106030c4d09b4864c299f67bf54?sid=04f78bb5-dc3d-41bc-a266-91ba286f62e8)
+
+
 ## Server (Node.js)
 
 ### 1. Node.js Installation:
