@@ -1,7 +1,9 @@
 import axios from "axios";
 
 const apiService = axios.create({
-  baseURL: "http://localhost:3001/api",
+  baseURL:
+    "https://easy-slr-task-server.vercel.app/api" ||
+    "http://localhost:3001/api",
 });
 
 export const registerApi = async (payload) => {
